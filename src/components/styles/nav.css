@@ -1,0 +1,42 @@
+#color-nav {
+    background-color: #010941;
+    font-weight: 400;
+}
+
+.link-style {
+    color: #8ec0ec;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-top: 7px;
+    padding-right: 30px;
+}
+
+.nav-btn-color {
+    background-color: #010941;
+    border-color: #f5deb3;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.nav-btn-color:hover {
+    background-color: #1f2c3d;
+}
+
+#hamburger-color {
+    border-color: wheat;
+    color: wheat;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='-9 -4 39 35' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(223,214,197, 10.0)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#overflow-ctrl {
+    padding-top: 200px;
+}
+
+#nav__text__style {
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
