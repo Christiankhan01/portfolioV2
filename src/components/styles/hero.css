@@ -33,7 +33,8 @@
 
 .hero__btn-color {
     background-color: #010941;
-    border-color: blue;
+    border-color: #faf5ec;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .aStyle {
