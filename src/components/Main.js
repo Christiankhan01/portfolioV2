@@ -4,6 +4,7 @@ import Hero from '../components/sections/Hero';
 import About from '../components/sections/About';
 import Projects from '../components/sections/Projects';
 import Contact from '../components/sections/Contact';
+import Resume from '../components/sections/Resume';
 const Main = () => {
     return (
         <div>
@@ -22,8 +23,11 @@ const Main = () => {
             <div className="row">
                 <Contact />
             </div>
+            <div className = "row">
+                <Resume /> 
+            </div>
         </div>
     )
 }
 
-export default Main
+export default Main; 

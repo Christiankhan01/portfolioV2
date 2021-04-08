@@ -34,7 +34,6 @@ const Navigation = ({ isHome }) => {
             expand="md" 
             fixed="top"
             
-            
             >
             
                     
@@ -67,7 +66,9 @@ const Navigation = ({ isHome }) => {
                         </Zoom>
                         <Zoom in={ isMounted }
                             { ...(isMounted ? { timeout: 4900 } : {}) }>
-                            <button type="button" className="btn-sm nav-btn-color"> Resume </button>
+                            <button type="button" className="btn-sm nav-btn-color"> 
+                            <a href="resume.pdf" target="_blank">
+                            Resume </a></button>
                         </Zoom>
 
                     </Nav>
