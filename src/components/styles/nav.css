@@ -16,7 +16,7 @@
 .nav-btn-color {
     background-color: #010941;
     border-color: #f5deb3;
-    color: wheat;
+    color: #f5deb3;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }
@@ -26,8 +26,8 @@
 }
 
 #hamburger-color {
-    border-color: wheat;
-    color: wheat;
+    border-color: #f5deb3;
+    color: #f5deb3;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='-9 -4 39 35' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(223,214,197, 10.0)' stroke-width='1' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     font-family: 'Courier New', Courier, monospace;
 }
@@ -37,6 +37,6 @@
 }
 
 #nav__text__style {
-    color: wheat;
+    color: #f5deb3;
     font-family: 'Courier New', Courier, monospace;
 }

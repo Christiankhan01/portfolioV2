@@ -24,7 +24,7 @@ module.exports = {
     ],
 
     colors: {
-        wheat: '#wheat',
+        wheat: '#f5deb3',
         darkNavy: '',
         smokeWhite: '',
     },
