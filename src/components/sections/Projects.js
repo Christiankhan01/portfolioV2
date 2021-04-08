@@ -4,7 +4,7 @@ import { Github, BoxArrowUpRight, Terminal } from 'react-bootstrap-icons';
 import chatLogo from '../images/chatLogo.png';
 import NewsPaper from '../images/NewsPaper.png';
 import CheckList from '../images/Checklist.png';
-import Fade from '@material-ui/core/fade';
+import Fade from '@material-ui/core/Fade';
 import '../styles/projects.css';
 
 const Projects = () => {

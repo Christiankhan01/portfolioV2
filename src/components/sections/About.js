@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import '../styles/about.css';
-import { Fade } from '@material-ui/core';
+import Fade  from '@material-ui/core/Fade';
 import { Typography } from '@material-ui/core';
-import { Element } from 'react-scroll';
+
 
 
 const About = () => {
