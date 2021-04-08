@@ -62,7 +62,7 @@ import Slide from '@material-ui/core/Slide';
                     <div className="col-md-8 col-lg-6">
                         <Grow in style={ { transformOrigin: '1 5 5' } }
                             { ...{ timeout: 5000 } }>
-                            <button type="button" className="btn-lg btn-color">
+                            <button type="button" className="btn-lg hero__btn-color">
                                 <div className="aColor">
                                     <a href={ `mailto:${email}` } className="aStyle">Contact Me!</a>
                                 </div>
