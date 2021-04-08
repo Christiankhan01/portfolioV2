@@ -25,24 +25,24 @@ const About = () => {
                         <div className="row">
                             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
                                 <h3 className="about__h3">About Me</h3>
-                                <Typography className="about__p">
+                                <div className="about__p">
                                     Hi! I'm Christian, a software developer based in Ontario, Canada.
-                                </Typography>
+                                </div>
                                 <hr />
 
-                                <Typography className="about__p">
+                                <div className="about__p">
                                     I develop websites and web applications for the internet with a focus on fullstack development with ReactJS and NodeJS.
                                     My goal is to always build products that solve end-user problems and achieve requirement goals.
-                                </Typography>
+                                </div>
                                 <hr />
-                                <Typography className="about__p">
+                                <div className="about__p">
                                     Shortly after graduating from<mark className="wheat" > YORK UNIVERSITY</mark>, I began building web applications using the MERN and PERN stack where I implement a
                                 variety of interesting and meaningful project features on daily basis. 
-                                </Typography>
+                                </div>
                                 <hr />
-                                <Typography className="about__p">
+                                <div className="about__p">
                                     Some Tech i've used Recently
-                                    </Typography>
+                                    </div>
                                     
                                     <ul className=" list-group list-group-horizontal-sm ">
                                     <li className="list-group-style">Java</li>
