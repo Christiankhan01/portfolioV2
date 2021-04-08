@@ -26,8 +26,8 @@ const Projects = () => {
                     <div className="card mb-3 mt-5 mr-auto card__body__color col-lg-8 ">
                         <span className="d-flex">
                             <div className="ml-auto icon__style">
-                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link"><Github /></a>
-                                <a href="https://text-chat.netlify.app" className="card-link"><BoxArrowUpRight /></a>
+                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link" target="_blank"><Github /></a>
+                                <a href="https://text-chat.netlify.app" className="card-link"  target="_blank"><BoxArrowUpRight /></a>
                             </div>
                         </span>
                         <div className="row no-gutters">
@@ -63,8 +63,8 @@ const Projects = () => {
                     <div className="card mb-3 mt-5 ml-auto card__body__color col-lg-8 ">
                         <span className="d-flex">
                             <div className="ml-auto icon__style">
-                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link"><Github /></a>
-                                <a href="https://newsme1.netlify.com" className="card-link"><BoxArrowUpRight /></a>
+                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link" target="_blank"><Github /></a>
+                                <a href="https://newsme1.netlify.com" className="card-link" target="_blank"><BoxArrowUpRight /></a>
                             </div>
                         </span>
                         <div className="row no-gutters">
@@ -102,8 +102,8 @@ const Projects = () => {
                     <div className="card mb-3 mt-5 mr-auto card__body__color col-lg-8 ">
                         <span className="d-flex">
                             <div className="ml-auto icon__style">
-                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link"><Github /></a>
-                                <a href="https://todo-app-postgres-jwt.herokuapp.com/" className="card-link"><BoxArrowUpRight /></a>
+                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link" target="_blank"><Github /></a>
+                                <a href="https://todo-app-postgres-jwt.herokuapp.com/" className="card-link" target="_blank"><BoxArrowUpRight /></a>
                             </div>
                         </span>
                         <div className="row no-gutters">
