@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, CardDeck } from 'react-bootstrap';
-import { Github, BoxArrowUpRight, Terminal } from 'react-bootstrap-icons';
+import { Github, BoxArrowUpRight } from 'react-bootstrap-icons';
 import chatLogo from '../images/chatLogo.png';
 import NewsPaper from '../images/NewsPaper.png';
 import CheckList from '../images/Checklist.png';
@@ -42,11 +41,11 @@ const Projects = () => {
                                     <h6 className="card-subtitle mb-2 text-muted">NodeJS text-chat app</h6>
                                     <br />
                                     <p className="card-text">
-                                        An application that does things which i hope i can explain and eventually this explaining will land me a gig.
+                                        A fullstack web application built with ReactJS, Socket.IO, NodeJS and ExpressJS demonstrating text communication between users over a client-server architecture.
                                 </p>
                                 </div>
                                 <div className="row">
-                                    <div className="card-footer mr-auto">
+                                    <div className= "mr-auto">
                                         <ul className="list-group list-group-horizontal-sm">
                                             <li className="list-group-item li__style">Reactjs</li>
                                             <li className="list-group-item li__style">Socket.IO</li>
@@ -63,7 +62,7 @@ const Projects = () => {
                     <div className="card mb-3 mt-5 ml-auto card__body__color col-lg-8 ">
                         <span className="d-flex">
                             <div className="ml-auto icon__style">
-                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link" target="_blank"><Github /></a>
+                                <a href="https://github.com/Christiankhan01/NewsMe" className="card-link" target="_blank"><Github /></a>
                                 <a href="https://newsme1.netlify.com" className="card-link" target="_blank"><BoxArrowUpRight /></a>
                             </div>
                         </span>
@@ -76,15 +75,15 @@ const Projects = () => {
                                     <h4 className="card-title">
                                         NewsMe App
                             </h4>
-                                    <h6 className="card-subtitle mb-2 text-muted">NodeJS text-chat app</h6>
+                                    <h6 className="card-subtitle mb-2 text-muted">NodeJS API Call App</h6>
                                     <br />
                                     <p className="card-text">
-                                        An application that does things which i hope i can explain and eventually this explaining will land me a gig.
+                                        A fullstack web application built with ReactJS, ReduxJS, Axios and NodeJS demonstrating an API call to gnews.io for news sources, state management with reduxJS and Google OAuth for sign-in. No Registration Required.
                                 </p>
 
                                 </div>
                                 <div className="row">
-                                    <div className="card-footer mr-auto">
+                                    <div className="mr-auto">
                                         <ul className="list-group list-group-horizontal-sm">
                                             <li className="list-group-item li__style">ReactJS</li>
                                             <li className="list-group-item li__style">ReduxJS</li>
@@ -99,10 +98,10 @@ const Projects = () => {
                 </Fade>
 
                 <Fade in={ checked } { ...{ timeout: 3000 } }>
-                    <div className="card mb-3 mt-5 mr-auto card__body__color col-lg-8 ">
+                    <div className="card mb-0 mt-5 mr-auto card__body__color col-lg-8 ">
                         <span className="d-flex">
                             <div className="ml-auto icon__style">
-                                <a href="https://www.github.com/christiankhan01/text-chat-app" className="card-link" target="_blank"><Github /></a>
+                                <a href="https://github.com/Christiankhan01/Todo-Today" className="card-link" target="_blank"><Github /></a>
                                 <a href="https://todo-app-postgres-jwt.herokuapp.com/" className="card-link" target="_blank"><BoxArrowUpRight /></a>
                             </div>
                         </span>
@@ -115,14 +114,14 @@ const Projects = () => {
                                     <h4 className="card-title">
                                         Todo Today
                                 </h4>
-                                    <h6 className="card-subtitle mb-2 text-muted">NodeJS text-chat app</h6>
+                                    <h6 className="card-subtitle mb-2 text-muted">NodeJS PostgreSQL CRUD app</h6>
                                     <br />
                                     <p className="card-text">
-                                        An application that does things which i hope i can explain and eventually this explaining will land me a gig.
+                                    A fullstack web application built with PostgreSQL, NodeJS, ExpressJS and ReactJS demonstrating CRUD operations over a RESTful architecture. This website utilizes JSON Web Tokens for authorization and encryption with bcrypt.
                                 </p>
                                 </div>
                                 <div className="row">
-                                    <div className="card-footer mr-auto">
+                                    <div className="mr-auto">
                                         <ul className="list-group list-group-horizontal-sm">
                                             <li className="list-group-item li__style">ReactJS</li>
                                             <li className="list-group-item li__style">ExpressJS</li>
@@ -135,9 +134,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </Fade>
-                <div className="text-center mb-4 ">
-                    <button type="button" className="btn-lg btn-color "> Load More </button>
-                </div>
+                
             </div>
         </div>
 

@@ -1,8 +1,16 @@
+@media(max-width: 760px) {
+    .body__style {
+        margin-bottom: 30vh;
+        margin-top: 1vh;
+    }
+}
+
 .body__style {
-    margin-top: 50px;
+    margin-top: 80px;
     position: relative;
     height: 100%;
     padding: 10px;
+    padding-top: 15px;
 }
 
 .card__body__color {
@@ -47,64 +55,10 @@
 
 .title__h3 {
     text-align: left;
-    color: #fff8eb;
+    color: #f5deb3;
     position: static;
 }
 
 .img__pixelate {
     image-rendering: pixelated;
-}
-
-@media only screen and (max-width: 1024px) {
-    .title__h3::after {
-        width: 35%;
-        top: 5.5%;
-    }
-    .title__h3::before {
-        width: 35%;
-        top: 5.5%;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .title__h3::after {
-        width: 30%;
-    }
-    .title__h3::before {
-        width: 30%;
-    }
-}
-
-@media only screen and (max-width: 680px) {
-    .title__h3::after {
-        position: absolute;
-        width: 10%;
-        top: 9%;
-    }
-    .title__h3::before {
-        width: 10%;
-        top: 9%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .title__h3::after {
-        width: 30%;
-        top: 7%;
-    }
-    .title__h3::before {
-        width: 30%;
-        top: 7%;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .title__h3::after {
-        width: 10%;
-        top: 9%;
-    }
-    .title__h3::before {
-        width: 10%;
-        top: 9%;
-    }
 }
